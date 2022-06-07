@@ -1,4 +1,4 @@
-/* import fonts here  */
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@400;700&display=swap');
 
 * {
     padding: 0;
@@ -6,4 +6,70 @@
     box-sizing: border-box;
     text-decoration: none; /* Removes link-like view */ 
 }
+
+
   
+body {
+    background-color: #FAF8F6;
+    display: grid;
+    grid-template-areas: 
+    nav 
+    hero
+    works
+    footer
+    ;
+    /* padding: 0rem 10rem 0rem 10rem; */
+    padding: 0rem 1rem 0rem 1rem;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1.5rem; /* Query */
+    margin-bottom: 3.6rem;
+}
+
+#requestAccess {
+    margin-left: auto;
+}
+
+#title-to-cta{
+    display: flex;
+    flex-direction: column;
+}
+
+#up-curve img {
+    width: 9.5rem;
+
+}
+
+h1 {
+    font-family: 'Epilogue', sans-serif;
+    font-size: 38px;
+    font-weight: 400;
+    color: #172339;
+    letter-spacing: -0.53 x;
+}
+
+p {
+    font-family: 'Epilogue', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    letter-spacing: 0.09 px;
+    line-height: 28px;
+    color: #49566D;
+}
+
+/* ##### BUTTONS ##### */
+
+.betaButton {
+    font-family: 'Epilogue', sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    height: 3.5rem ;
+    padding: 0rem 1rem 0rem 1rem;
+    border-radius: 6px;
+    border-color: #172339;
+    border-width: 1px;
+    background-color: transparent;
+}
