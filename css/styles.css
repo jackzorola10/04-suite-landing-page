@@ -7,7 +7,19 @@
     text-decoration: none; /* Removes link-like view */ 
 }
 
+/* ##### BUTTONS ##### */
 
+.betaButton {
+    font-family: 'Epilogue', sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    height: 3.5rem ;
+    padding: 0rem 1rem 0rem 1rem;
+    border-radius: 6px;
+    border-color: #172339;
+    border-width: 1px;
+    background-color: transparent;
+}
   
 body {
     background-color: #FAF8F6;
@@ -18,8 +30,6 @@ body {
     works
     footer
     ;
-    /* padding: 0rem 10rem 0rem 10rem; */
-    padding: 0rem 1rem 0rem 1rem;
 }
 
 nav {
@@ -27,6 +37,11 @@ nav {
     flex-direction: row;
     margin-top: 1.5rem; /* Query */
     margin-bottom: 3.6rem;
+    padding: 0rem 1rem 0rem 1rem;
+}
+
+#hero {
+    padding: 0rem 1rem 0rem 1rem;
 }
 
 #requestAccess {
@@ -67,6 +82,7 @@ p {
     background-image: url(../assets/image-hero-landscape.webp);
     height: 15rem;
     margin-top: 3.5rem;
+    background-repeat: no-repeat;
 }
 
 /* ###### STATS ###### */
@@ -100,16 +116,79 @@ p {
     text-align: center;
 }
 
-/* ##### BUTTONS ##### */
+/* ##### IT JUST WORKS ##### */
 
-.betaButton {
+#blueSquare {
+    background-color: #172339;
+    border-radius: 15px;
     font-family: 'Epilogue', sans-serif;
-    font-size: 1rem;
-    font-weight: 700;
-    height: 3.5rem ;
-    padding: 0rem 1rem 0rem 1rem;
-    border-radius: 6px;
-    border-color: #172339;
-    border-width: 1px;
-    background-color: transparent;
+
+}
+
+#hombrePelon{
+    background-image: url(../assets/image-jeremy-small@2x.webp);
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-position: center; 
+}
+
+#pelito {
+    background-image: url(../assets/pattern-curved-line-2.svg);
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    height: 40px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-position: center; 
+}
+
+#blueSquare div h2 {
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: .42px;
+    color: #FAF8F6;
+    text-align: center;
+}
+
+#blueSquare div p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: .09px;
+    color: #FAF8F6;
+    text-align: center;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+#jeremy {
+    text-transform: uppercase;
+}
+
+/* ##### FOOTER ##### */
+
+footer {
+    background-color: #F3EDE7;
+    text-align: center;
+    margin-top: -50px;
+    height: 420px;
+    z-index: -1;
+    padding-top: 100px;
+}
+
+footer div {
+    margin: 2rem 0rem 1rem 0;
+}
+
+#socials {
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+    padding: 0 8rem 0 8rem;
 }
