@@ -23,13 +23,6 @@
   
 body {
     background-color: #FAF8F6;
-    display: grid;
-    grid-template-areas: 
-    nav 
-    hero
-    works
-    footer
-    ;
 }
 
 nav {
@@ -68,7 +61,7 @@ h1 {
     margin: 1rem 0 1rem 0;
 }
 
-p {
+#generalInfo {
     font-family: 'Epilogue', sans-serif;
     font-weight: 400;
     font-size: 1rem;
@@ -93,6 +86,10 @@ p {
     margin-top: 2.5rem;
 }
 
+.statBlock {
+    margin: 1rem auto 1rem auto;
+}
+
 .statBlockHeading {
     font-family: 'Epilogue', sans-serif;
     font-weight: 700;
@@ -100,7 +97,6 @@ p {
     font-size: 48px;
     line-height: 56px;
     color: #172339;
-    margin: 1rem auto 0 auto;
     text-align: center
 }
 
@@ -118,58 +114,102 @@ p {
 
 /* ##### IT JUST WORKS ##### */
 
-#blueSquare {
+#background-box {
     background-color: #172339;
     border-radius: 15px;
-    font-family: 'Epilogue', sans-serif;
-
+    margin-top: 237px;    
+    position: relative;
+    z-index: -2;
 }
 
-#hombrePelon{
+#jeremyImg {
+    height: 400px;
+    position: relative;
+    bottom: 175px;
+}
+
+#jeremyHimself {
     background-image: url(../assets/image-jeremy-small@2x.webp);
     background-size: auto 100%;
     background-repeat: no-repeat;
+    background-position: center;
     height: 400px;
     width: 80%;
     margin-left: auto;
     margin-right: auto;
-    background-position: center; 
+}
+
+#jeremysShadow {
+    background-image: url(../assets/pattern-blur.svg);
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 400px;
+    width: 100vw;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    bottom: 362px;
+    z-index: -1;
 }
 
 #pelito {
     background-image: url(../assets/pattern-curved-line-2.svg);
     background-size: auto 100%;
     background-repeat: no-repeat;
-    height: 40px;
-    width: 80%;
+    height: 15vw;
+    width: 30vw;
     margin-left: auto;
     margin-right: auto;
     background-position: center; 
 }
 
-#blueSquare div h2 {
-    font-size: 40px;
+#justWorksText {
+    font-family: 'Epilogue', sans-serif;
+    color: #FAF8F6;    
+    padding: 0 1rem 0 1rem;
+}
+
+#justWorksText h2{
     font-weight: 400;
+    font-size: 40px;
     line-height: 48px;
     letter-spacing: .42px;
-    color: #FAF8F6;
     text-align: center;
 }
 
-#blueSquare div p {
-    font-size: 18px;
+#justWorksText p{
     font-weight: 400;
+    font-size: 18px;
     line-height: 32px;
     letter-spacing: .09px;
-    color: #FAF8F6;
     text-align: center;
-    margin-left: 1rem;
-    margin-right: 1rem;
 }
 
-#jeremy {
-    text-transform: uppercase;
+#name-and-role {
+    font-family: 'Epilogue', sans-serif;
+    color: #FAF8F6;
 }
+
+#name-and-role p{
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#name{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 2rem;
+    letter-spacing: -.18px;
+}
+
+#role {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 2.5px;
+}
+
 
 /* ##### FOOTER ##### */
 
@@ -178,12 +218,21 @@ footer {
     text-align: center;
     margin-top: -50px;
     height: 420px;
-    z-index: -1;
+    position: relative;
+    z-index: -10;
     padding-top: 100px;
 }
 
 footer div {
     margin: 2rem 0rem 1rem 0;
+}
+
+#copyright {
+    color: #49566D;
+    font-size: 15px;
+    font-family: 'Epilogue', sans-serif;
+    line-height: 32px;
+    letter-spacing: .08px;
 }
 
 #socials {
