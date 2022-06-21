@@ -7,6 +7,7 @@
     text-decoration: none; /* Removes link-like view */ 
 }
 
+
 /* ##### BUTTONS ##### */
 
 .betaButton {
@@ -22,222 +23,475 @@
 }
   
 body {
-    background-color: #FAF8F6;
-}
-
-nav {
-    display: flex;
-    flex-direction: row;
-    margin-top: 1.5rem; /* Query */
-    margin-bottom: 3.6rem;
-    padding: 0rem 1rem 0rem 1rem;
-}
-
-#hero {
-    padding: 0rem 1rem 0rem 1rem;
-}
-
-#requestAccess {
-    margin-left: auto;
-}
-
-#title-to-cta{
-    display: flex;
-    flex-direction: column;
-}
-
-#up-curve img {
-    width: 9.5rem;
-    float: right;
-    margin-right: 2rem;
-}
-
-h1 {
-    font-family: 'Epilogue', sans-serif;
-    font-size: 38px;
-    font-weight: 400;
-    color: #172339;
-    letter-spacing: -0.53 x;
-    margin: 1rem 0 1rem 0;
-}
-
-#generalInfo {
-    font-family: 'Epilogue', sans-serif;
-    font-weight: 400;
-    font-size: 1rem;
-    letter-spacing: 0.09 px;
-    line-height: 28px;
-    color: #49566D;
-    margin: 1rem 0 2rem 0;
-}
-
-#phoneImage {
-    background-image: url(../assets/image-hero-landscape.webp);
-    height: 15rem;
-    margin-top: 3.5rem;
-    background-repeat: no-repeat;
-}
-
-/* ###### STATS ###### */
-
-#stats {
-    display: flex;
-    flex-direction: column;
-    margin-top: 2.5rem;
-}
-
-.statBlock {
-    margin: 1rem auto 1rem auto;
-}
-
-.statBlockHeading {
-    font-family: 'Epilogue', sans-serif;
-    font-weight: 700;
-    text-transform: uppercase;
-    font-size: 48px;
-    line-height: 56px;
-    color: #172339;
-    text-align: center
-}
-
-.statBlockText {
-    font-family: 'Epilogue', sans-serif;
-    font-weight: 400;
-    font-size: 1rem;    
-    text-transform: uppercase;
-    line-height: 26px;
-    letter-spacing: 2.5px;
-    color: #49566D;
-    margin: 0 auto 0 auto;
-    text-align: center;
-}
-
-/* ##### IT JUST WORKS ##### */
-
-#background-box {
-    background-color: #172339;
-    border-radius: 15px;
-    margin-top: 237px;    
-    position: relative;
-    z-index: -2;
-}
-
-#jeremyImg {
-    height: 400px;
-    position: relative;
-    bottom: 175px;
-}
-
-#jeremyHimself {
-    background-image: url(../assets/image-jeremy-small@2x.webp);
-    background-size: auto 100%;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 400px;
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-#jeremysShadow {
-    background-image: url(../assets/pattern-blur.svg);
-    background-size: auto 100%;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 400px;
-    width: 100vw;
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
-    bottom: 362px;
-    z-index: -1;
-}
-
-#pelito {
-    background-image: url(../assets/pattern-curved-line-2.svg);
-    background-size: auto 100%;
-    background-repeat: no-repeat;
-    height: 15vw;
-    width: 30vw;
-    margin-left: auto;
-    margin-right: auto;
-    background-position: center; 
-}
-
-#justWorksText {
-    font-family: 'Epilogue', sans-serif;
-    color: #FAF8F6;    
-    padding: 0 1rem 0 1rem;
-}
-
-#justWorksText h2{
-    font-weight: 400;
-    font-size: 40px;
-    line-height: 48px;
-    letter-spacing: .42px;
-    text-align: center;
-}
-
-#justWorksText p{
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 32px;
-    letter-spacing: .09px;
-    text-align: center;
-}
-
-#name-and-role {
-    font-family: 'Epilogue', sans-serif;
-    color: #FAF8F6;
-}
-
-#name-and-role p{
-    text-transform: uppercase;
-    text-align: center;
-}
-
-#name{
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 2rem;
-    letter-spacing: -.18px;
-}
-
-#role {
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 26px;
-    letter-spacing: 2.5px;
+    background-color: #FAF8F6;  
+    white-space: normal;
+    
 }
 
 
-/* ##### FOOTER ##### */
 
-footer {
-    background-color: #F3EDE7;
-    text-align: center;
-    margin-top: -50px;
-    height: 420px;
-    position: relative;
-    z-index: -10;
-    padding-top: 100px;
+
+
+@media (max-width: 480px) {
+    nav {
+        display: flex;
+        flex-direction: row;
+        margin-top: 1.5rem; /* Query */
+        margin-bottom: 3.6rem;
+        padding: 0rem 1rem 0rem 1rem;
+    }
+    
+    #hero {
+        padding: 0rem 1rem 0rem 1rem;
+    }
+    
+    #requestAccess {
+        margin-left: auto;
+    }
+    
+    #title-to-cta{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #up-curve img {
+        width: 9.5rem;
+        float: right;
+        margin-right: 2rem;
+    }
+    
+    h1 {
+        font-family: 'Epilogue', sans-serif;
+        font-size: 38px;
+        font-weight: 400;
+        color: #172339;
+        letter-spacing: -0.53 x;
+        margin: 1rem 0 1rem 0;
+    }
+    
+    #generalInfo {
+        font-family: 'Epilogue', sans-serif;
+        font-weight: 400;
+        font-size: 1rem;
+        letter-spacing: 0.09 px;
+        line-height: 28px;
+        color: #49566D;
+        margin: 1rem 0 2rem 0;
+    }
+    
+    #phoneImage {
+        background-image: url(../assets/image-hero-landscape.webp);
+        height: 15rem;
+        margin-top: 3.5rem;
+        background-repeat: no-repeat;
+    }
+    
+    /* ###### STATS ###### */
+    
+    #stats {
+        display: flex;
+        flex-direction: column;
+        margin-top: 2.5rem;
+    }
+    
+    .statBlock {
+        margin: 1rem auto 1rem auto;
+    }
+    
+    .statBlockHeading {
+        font-family: 'Epilogue', sans-serif;
+        font-weight: 700;
+        text-transform: uppercase;
+        font-size: 48px;
+        line-height: 56px;
+        color: #172339;
+        text-align: center
+    }
+    
+    .statBlockText {
+        font-family: 'Epilogue', sans-serif;
+        font-weight: 400;
+        font-size: 1rem;    
+        text-transform: uppercase;
+        line-height: 26px;
+        letter-spacing: 2.5px;
+        color: #49566D;
+        margin: 0 auto 0 auto;
+        text-align: center;
+    }
+    
+    /* ##### IT JUST WORKS ##### */
+    
+    #background-box {
+        background-color: #172339;
+        border-radius: 15px;
+        margin-top: 237px;    
+        position: relative;
+        z-index: -2;
+    }
+    
+    #jeremyImg {
+        height: 400px;
+        position: relative;
+        bottom: 175px;
+    }
+    
+    #jeremyHimself {
+        background-image: url(../assets/image-jeremy-small@2x.webp);
+        background-size: auto 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 400px;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    #jeremysShadow {
+        background-image: url(../assets/pattern-blur.svg);
+        background-size: auto 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 400px;
+        width: 100vw;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+        bottom: 362px;
+        z-index: -1;
+    }
+    
+    #pelito {
+        background-image: url(../assets/pattern-curved-line-2.svg);
+        background-size: auto 100%;
+        background-repeat: no-repeat;
+        height: 15vw;
+        width: 30vw;
+        margin-left: auto;
+        margin-right: auto;
+        background-position: center; 
+    }
+    
+    #justWorksText {
+        font-family: 'Epilogue', sans-serif;
+        color: #FAF8F6;    
+        padding: 0 1rem 0 1rem;
+    }
+    
+    #justWorksText h2{
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 48px;
+        letter-spacing: .42px;
+        text-align: center;
+    }
+    
+    #justWorksText p{
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 32px;
+        letter-spacing: .09px;
+        text-align: center;
+    }
+    
+    #name-and-role {
+        font-family: 'Epilogue', sans-serif;
+        color: #FAF8F6;
+    }
+    
+    #name-and-role p{
+        text-transform: uppercase;
+        text-align: center;
+    }
+    
+    #name{
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 2rem;
+        letter-spacing: -.18px;
+    }
+    
+    #role {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        letter-spacing: 2.5px;
+    }
+    
+    
+    /* ##### FOOTER ##### */
+    
+    footer {
+        background-color: #F3EDE7;
+        text-align: center;
+        margin-top: -50px;
+        height: 420px;
+        position: relative;
+        z-index: -10;
+        padding-top: 100px;
+    }
+    
+    footer div {
+        margin: 2rem 0rem 1rem 0;
+    }
+    
+    #copyright {
+        color: #49566D;
+        font-size: 15px;
+        font-family: 'Epilogue', sans-serif;
+        line-height: 32px;
+        letter-spacing: .08px;
+    }
+    
+    #socials {
+        justify-content: space-around;
+        display: flex;
+        flex-direction: row;
+        padding: 0 8rem 0 8rem;
+    }
+
 }
 
-footer div {
-    margin: 2rem 0rem 1rem 0;
+@media (min-width: 481px) and (max-width: 1023px) {
+
+
+    nav {
+        display: flex; /* Take out */
+        flex-direction: row; /* Take out */
+        margin-top: 2.5rem; 
+        margin-bottom: 5rem;
+        padding: 0rem 2.5rem 0rem 2.5rem;
+        width: 100vw;
+        justify-content: space-between;
+    }
+
+            
+    #hero {
+        padding: 0rem 1.5rem 0rem 1.5rem;
+        display: grid;
+        grid-template-areas: 
+            "title title phone"
+            "title title phone"
+            "stats stats stats"
+        ;
+        overflow: hidden;
+    }
+    
+    
+    #title-to-cta{
+        grid-area: title;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        width: 140%
+    }
+    
+            #up-curve img {
+                width: 9.5rem;
+                float: right;
+                margin-right: 2rem;
+            }
+            
+            h1 {
+                font-family: 'Epilogue', sans-serif;
+                font-size: 64px;
+                font-weight: 400;
+                color: #172339;
+                letter-spacing: -0.53 x;
+                margin: 1rem 0 1rem 0;
+            }
+            
+            #generalInfo {
+                font-family: 'Epilogue', sans-serif;
+                font-weight: 400;
+                font-size: 1rem;
+                letter-spacing: 0.09 px;
+                line-height: 28px;
+                color: #49566D;
+                margin: 1rem 0 2rem 0;
+                width: 60%;
+            }
+    
+    #phoneImage {
+        grid-area: phone;
+        background-image: url(../assets/image-hero-portrait.webp);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 30rem;
+        width: 17.5rem;
+        margin-top: 3.5rem;
+        position: relative;
+        bottom: 80px;
+        z-index: -1;
+
+    }
+    
+    /* ###### STATS ###### */
+    
+    #stats {
+        grid-area: stats;
+        display: flex;
+        flex-direction: column;
+        margin-top: 2.5rem;
+    }
+    
+            .statBlock {
+                margin: 1rem auto 1rem auto;
+            }
+            
+            .statBlockHeading {
+                font-family: 'Epilogue', sans-serif;
+                font-weight: 700;
+                text-transform: uppercase;
+                font-size: 48px;
+                line-height: 56px;
+                color: #172339;
+                text-align: center
+            }
+            
+            .statBlockText {
+                font-family: 'Epilogue', sans-serif;
+                font-weight: 400;
+                font-size: 1rem;    
+                text-transform: uppercase;
+                line-height: 26px;
+                letter-spacing: 2.5px;
+                color: #49566D;
+                margin: 0 auto 0 auto;
+                text-align: center;
+            }
+    
+    /* ##### IT JUST WORKS ##### */
+    
+    #background-box {
+        background-color: #172339;
+        border-radius: 15px;
+        margin-top: 237px;    
+        position: relative;
+        z-index: -2;
+    }
+    
+    #jeremyImg {
+        height: 400px;
+        position: relative;
+        bottom: 175px;
+    }
+    
+    #jeremyHimself {
+        background-image: url(../assets/image-jeremy-small@2x.webp);
+        background-size: auto 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 400px;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    #jeremysShadow {
+        background-image: url(../assets/pattern-blur.svg);
+        background-size: auto 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 400px;
+        width: 100vw;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+        bottom: 362px;
+        z-index: -1;
+    }
+    
+    #pelito {
+        background-image: url(../assets/pattern-curved-line-2.svg);
+        background-size: auto 100%;
+        background-repeat: no-repeat;
+        height: 15vw;
+        width: 30vw;
+        margin-left: auto;
+        margin-right: auto;
+        background-position: center; 
+    }
+    
+    #justWorksText {
+        font-family: 'Epilogue', sans-serif;
+        color: #FAF8F6;    
+        padding: 0 1rem 0 1rem;
+    }
+    
+    #justWorksText h2{
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 48px;
+        letter-spacing: .42px;
+        text-align: center;
+    }
+    
+    #justWorksText p{
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 32px;
+        letter-spacing: .09px;
+        text-align: center;
+    }
+    
+    #name-and-role {
+        font-family: 'Epilogue', sans-serif;
+        color: #FAF8F6;
+    }
+    
+    #name-and-role p{
+        text-transform: uppercase;
+        text-align: center;
+    }
+    
+    #name{
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 2rem;
+        letter-spacing: -.18px;
+    }
+    
+    #role {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        letter-spacing: 2.5px;
+    }
+    
+    
+    /* ##### FOOTER ##### */
+    
+    footer {
+        background-color: #F3EDE7;
+        text-align: center;
+        margin-top: -50px;
+        height: 420px;
+        position: relative;
+        z-index: -10;
+        padding-top: 100px;
+    }
+    
+    footer div {
+        margin: 2rem 0rem 1rem 0;
+    }
+    
+    #copyright {
+        color: #49566D;
+        font-size: 15px;
+        font-family: 'Epilogue', sans-serif;
+        line-height: 32px;
+        letter-spacing: .08px;
+    }
+    
+    #socials {
+        justify-content: space-around;
+        display: flex;
+        flex-direction: row;
+        padding: 0 8rem 0 8rem;
+    }
+
 }
 
-#copyright {
-    color: #49566D;
-    font-size: 15px;
-    font-family: 'Epilogue', sans-serif;
-    line-height: 32px;
-    letter-spacing: .08px;
-}
-
-#socials {
-    justify-content: space-around;
-    display: flex;
-    flex-direction: row;
-    padding: 0 8rem 0 8rem;
-}
+/* @media (min-width: 1024px)  */
